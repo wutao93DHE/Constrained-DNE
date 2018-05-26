@@ -7,7 +7,7 @@ The constrained DNE program provides an alternative for the common elevation-bas
  
 The program takes the advantages of both the DEM data and the mapped data, and hence can derive very accurate watershed partitions and almost identical channel delineations with the mapped streamlines. Also note that the program ensures scale-consistent performance with various DEM resolutions, and hence may be particularly useful to wide-ranging analyses in which the used DEMs are usually of coarse or medium resolutions.
 
-The DNE program, coded in C++ language, adopts the state-of-the-art least-cost-path-search method (i.e., the Priority-Flood algorithm; see [Wang and Liu (2006)](https://www.tandfonline.com/doi/abs/10.1080/13658810500433453) and [Barnes et al. (2014)](https://www.sciencedirect.com/science/article/pii/S0098300413001337) for reference) as the core algorithm, and are implemented based on a high-efficient DNE implementation (see publication: [Bai R, Li T, Huang Y, et al. An efficient and comprehensive method for drainage network extraction from DEM with billions of pixels using a size-balanced binary search tree. Geomorphology, 2015, 238:5667](https://www.sciencedirect.com/science/article/pii/S0169555X15001233)) using a size-balanced binary search tree. This uploaded project (in the /ConstrainedDNE folder) was created by Mircosoft Visual Studio 2015, and some Microsoft library functions are used. If a user needs to use the source code in other environments, some minor alterations should be made.
+The DNE program, coded in C++ language, adopts the state-of-the-art least-cost-path-search method (i.e., the Priority-Flood algorithm; see [Wang and Liu (2006)](https://www.tandfonline.com/doi/abs/10.1080/13658810500433453) and [Barnes et al. (2014)](https://www.sciencedirect.com/science/article/pii/S0098300413001337) for reference) as the framework, and are implemented based on a high-efficient DNE implementation (see publication: [Bai R, Li T, Huang Y, et al. An efficient and comprehensive method for drainage network extraction from DEM with billions of pixels using a size-balanced binary search tree. Geomorphology, 2015, 238:5667](https://www.sciencedirect.com/science/article/pii/S0169555X15001233)) using a size-balanced binary search tree. This uploaded project (in the /ConstrainedDNE folder) was created by Mircosoft Visual Studio 2015, and some Microsoft library functions are used. If a user needs to use the source code in other environments, some minor alterations should be made.
 
 ### Usage
 
@@ -26,10 +26,10 @@ __Notice__: The program will create a folder named same as the input DEM file an
 
 |#|Input & Output|Figures|
 |:---:|:---:|:---:|
-|1|Input: DEM data (.tif file, uncompressed format)|![DEM data](Image/Fig1_InputDEM.jpg "DEM data")|
-|2|Input: Streamlines data for flow enforcement (.shp polyline file)|![Channel Mark](Image/Fig2_InputStreamlinesFile.png "Channel Mark")|
-|3|Output: Derived drainage network (.shp polyline file)|![Channel Mark](Image/Fig3_OutputDerivedRiver.png "Channel Mark")|
-|4|Output: corresponding upslope area boundaries (.shp polygon file)|![Channel Mark](Image/Fig4_OutputDerivedBound.png "Channel Mark")|
+|1|Input: DEM data (.tif file, uncompressed format)|![Fig1](Image/Fig1_InputDEM.jpg "Fig1")|
+|2|Input: Streamlines data for flow enforcement (.shp polyline file)|![Fig2](Image/Fig2_InputStreamlinesFile.jpg "Fig2")|
+|3|Output: Derived drainage network (.shp polyline file)|![Fig3](Image/Fig3_OutputDerivedRiver.jpg "Fig3")|
+|4|Output: corresponding upslope area boundaries (.shp polygon file)|![Fig4](Image/Fig4_OutputDerivedBound.jpg "Fig4")|
 
 
 ### Statement
