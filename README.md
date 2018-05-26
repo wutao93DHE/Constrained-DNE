@@ -26,7 +26,7 @@ __Notice__: The program will create a folder named same as the input DEM file an
 
 |#|Input & Output|Figures|
 |:---:|:---:|:---:|
-|1|Input: DEM data (.tif file, uncompressed format)|![DEM data](Image/Fig1_InputDEM.png "DEM data")|
+|1|Input: DEM data (.tif file, uncompressed format)|![DEM data](Image/Fig1_InputDEM.jpg "DEM data")|
 |2|Input: Streamlines data for flow enforcement (.shp polyline file)|![Channel Mark](Image/Fig2_InputStreamlinesFile.png "Channel Mark")|
 |3|Output: Derived drainage network (.shp polyline file)|![Channel Mark](Image/Fig3_OutputDerivedRiver.png "Channel Mark")|
 |4|Output: corresponding upslope area boundaries (.shp polygon file)|![Channel Mark](Image/Fig4_OutputDerivedBound.png "Channel Mark")|
