@@ -15,7 +15,7 @@ A compiled Windows exe file can be found in the /Sample/Exe folder.
 
 The program runs in the command line mode. 
 
-There are three input parameters in all, including (1)_DEM_data_file_path_, (2)_Streamlines_file_path_, and (3) _Critical_upslope_contributing_area_. 
+There are three input parameters in all, including (1) _DEM_data_file_path_, (2) _Streamlines_file_path_, and (3)  _Critical_upslope_contributing_area_. 
 
 _Critical_upslope_contributing_area_ is an integer for channel head determination; for example, if this parameter is set to be 250, it means cells with flow accumulation values over 250 should be considered as channel cells. 
 
