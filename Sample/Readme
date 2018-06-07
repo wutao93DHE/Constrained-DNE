@@ -1,10 +1,10 @@
 This folder contains the ConstrainedDNE program and an Input&Output example as shown in the home page. 
 
 Screenshot 1 - Inputs of three parameters in the command line mode.
-![SS1](https://github.com/wutao93DHE/Constrained-DNE/raw/master/Image/UserGuide_Fig1.png)
+![Screenshot 1](https://github.com/wutao93DHE/Constrained-DNE/raw/master/Image/UserGuide_Fig1.png)
 
 Screenshot 2 - Default Settings: Constant CSA method for channel initiation; 4 Outlets are preserved.
-![SS2](https://github.com/wutao93DHE/Constrained-DNE/raw/master/Image/UserGuide_Fig2.png)
+![Screenshot 2](https://github.com/wutao93DHE/Constrained-DNE/raw/master/Image/UserGuide_Fig2.png)
 
 Screenshot 3 - Outputs at hierarchical levels according to Horton-Strahler Order.
-![SS3](https://github.com/wutao93DHE/Constrained-DNE/raw/master/Image/UserGuide_Fig3.png)
+![Screenshot 3](https://github.com/wutao93DHE/Constrained-DNE/raw/master/Image/UserGuide_Fig3.png)
