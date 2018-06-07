@@ -8,3 +8,11 @@ Screenshot 2 - Default Settings: Constant CSA method for channel initiation; 4 O
 
 Screenshot 3 - Outputs at hierarchical levels according to Horton-Strahler Order.
 ![SS3](https://github.com/wutao93DHE/Constrained-DNE/raw/master/Image/UserGuide_Fig3.png)
+
+|#|Input & Output|Figures|
+|:---:|:---:|:---:|
+|1|Input: DEM data (.tif file, uncompressed format)|![DEM data](https://github.com/wutao93DHE/Constrained-DNE/raw/master/Image/Fig1_InputDEM.jpg "DEM data")|
+|2|Input: Streamlines data for flow enforcement (.shp polyline file)|![Channel Mark](Help/img/Mark.jpg "Channel Mark")|
+|3|Output: Derived drainage network (.shp polyline file)|![Channel Mark](Help/img/Mark.jpg "Channel Mark")|
+|4|Output: corresponding upslope area boundaries (.shp polygon file)|![Channel Mark](Help/img/Mark.jpg "Channel Mark")|
+
